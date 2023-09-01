@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: 'EB Garamond', sans-serif;
+}
+body {
+    margin: 0;
+    color: #330b0e;
+}
+.col1 {
+    padding: 1rem;
+    background-color: #f9e4d0;
+    text-align: center;
+}
+.col2 {
+    padding: 1rem;
+    background-color: #fbe7e0;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+@media (max-width: 1024px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+}
+/*Color scheme:
+beige: #FBE7E0, champagne: #F9E4D0, rose: #ECC0B0, dark rose: 9C3940*/
+hr {
+    background-color: #ecc0b0;
+    border: none;
+    height: 5px;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #9C3940;
+    line-height: 0.3;
+}
+.headshot {
+    border-radius: 32px;
+    
+}
+.geo .mail {
+    
+}    
+
